@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import '../App.css'; // Import your CSS file
 
 const About= () => {
@@ -10,9 +12,9 @@ const About= () => {
           </div>
           <nav>
             <ul>
-              <li><a href="App.js">Home</a></li>
-              <li className="current"><a href="About.js">About</a></li>
-              <li><a href="Products.js">Products</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li className="current"><Link to="/About">About</Link></li>
+              <li><Link to="/Products">Products</Link></li>
             </ul>
           </nav>
         </div>
