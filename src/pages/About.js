@@ -8,7 +8,7 @@ const About= () => {
       <header>
         <div className="container">
           <div id="branding">
-            <h1><span className="highlight">Sonos</span> Web Design</h1>
+            <h1><span className="highlight">Sonos</span></h1>
           </div>
           <nav>
             <ul className="current">
@@ -22,7 +22,7 @@ const About= () => {
 
       <section id="newsletter">
         <div className="container">
-          <h1>Subscribe to our newsletter</h1>
+          <h1>Subscribe to get updates on our products</h1>
           <form>
             <input type="email" placeholder="Enter email..." />
             <button type="submit" className="button_1">Subscribe</button>

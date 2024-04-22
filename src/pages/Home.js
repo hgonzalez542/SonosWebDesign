@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css'; // Import your CSS file
-import sonosFiveImage from '../img/SonosFIVE.jpg';
-import sonosBeamImage from '../img/SonosBEAM.jpg';
-import sonosAmpImage from '../img/SonosAMP.jpg';
+import sonosSpeaker from '../img/speakerT.png';
+import sonosArc from '../img/arc.png';
+import sonosAmp from '../img/amp.avif';
 
 
 const Home = () => {
@@ -25,10 +25,8 @@ const Home = () => {
 
       <section id="showcase">
         <div className="container">
-          <h1>Affordable and Amazing audio</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-          </p>
+          <h1>Welcome to the Inovation Of Sound</h1>
+          <h2>Effortless Listening, Simplicity as it's Core & Phenomal Sound</h2>
         </div>
       </section>
 
@@ -45,7 +43,7 @@ const Home = () => {
       <section id="boxes">
         <div className="container">
           <div className="box">
-            <img src={sonosFiveImage} alt="Sonos Five" />
+            <img src={sonosSpeaker} alt="Sonos Five" />
             <h3>Speakers</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
@@ -53,7 +51,7 @@ const Home = () => {
           </div>
           
           <div className="box">
-            <img src={sonosBeamImage} alt="Sonos Beam" />
+            <img className="arcSize" src={sonosArc} alt="Sonos Beam" />
             <h3>Home Theater</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
@@ -61,7 +59,7 @@ const Home = () => {
           </div>
 
           <div className="box">
-            <img src={sonosAmpImage} alt="Sonos Amp" />
+            <img className="ampSize" src={sonosAmp} alt="Sonos Amp" />
             <h3>Amps</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum

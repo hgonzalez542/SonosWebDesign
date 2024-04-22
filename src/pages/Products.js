@@ -8,7 +8,7 @@ const Products = () => {
       <header>
         <div className="container">
           <div id="branding">
-            <h1><span className="highlight">Sonos</span> Web Design</h1>
+            <h1><span className="highlight">Sonos</span></h1>
           </div>
           <nav>
             <ul className="current">
@@ -55,7 +55,7 @@ const Products = () => {
 
           <aside id="sidebar">
             <div className="dark">
-              <h3>Get a Quote</h3>
+              <h3>Get a Quote For Your Very Own Speaker System</h3>
               <form className="quote">
                 <div>
                   <label>Name</label><br />

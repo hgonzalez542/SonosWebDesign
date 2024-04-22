@@ -2,7 +2,7 @@ body {
   font: 15px/1.5 Arial, Helvetica, sans-serif; /* Easier way to input styling */
   padding:0;
   margin: 0;
-  background-color:#f4f4f4;
+  background-color:#d4d4d4;
   /*
   Tradional way of styling
   font-: Arial, Helvetica, sans-serif;
@@ -34,11 +34,11 @@ ul {
 
 .button_1 {
   height: 38px;
-  background:#e8491d;
+  background:#f9f9f9;
   border: 0;
   padding-left: 20px;
   padding-right: 20px;
-  color: #ffffff;
+  color: #000000;
 }
 
 /* Header */
@@ -47,7 +47,7 @@ header {
   color:#040404;
   padding-top: 20px;
   min-height: 50px;
-  border-bottom:#dcd7d6 3px solid;
+  border-bottom:#090909 3px solid;
 }
 
 header a{
@@ -98,8 +98,9 @@ header a:hover {
 
 /* Showcase */
 #showcase {
-   min-height: 200px;
-   background: url('./img/sonosIMG.png') no-repeat 0 -400px;
+   min-height: 100px;
+   background: url('./img/sonosBG.jpg') no-repeat;
+   background-size: cover; /* Cover the entire container */
    text-align: center;
    color: #ffffff;
 }
@@ -116,8 +117,8 @@ header a:hover {
 
 #newsletter{
   padding: 15px;
-  color: #ffffff;
-  background: #35424a;
+  color: #000000;
+  background: #fbfbfbdb;
 }
 
 #newsletter h1{
@@ -139,6 +140,15 @@ header a:hover {
   margin-top: 20px;
 }
 
+#boxes .arcSize{
+  height: 120px;
+  width: 100px;
+}
+
+#boxes .ampSize{
+  height: 120px;
+}
+
 #boxes .box{
   float: left;
   text-align: center;
@@ -147,7 +157,7 @@ header a:hover {
 }
 
 #boxes .box img{
-  width: 90px;
+  width: 120px;
 }
 
 aside#sidebar{
@@ -179,8 +189,8 @@ ul#services li{
 footer {
    padding: 20px;
    margin-top: 20px;
-   color: #ffffff;
-   background-color: #e8491d;
+   color: #000000;
+   background-color: #ffffff;
    text-align: center;
 }
 
