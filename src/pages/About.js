@@ -11,9 +11,9 @@ const About= () => {
             <h1><span className="highlight">Sonos</span> Web Design</h1>
           </div>
           <nav>
-            <ul>
+            <ul className="current">
               <li><Link to="/">Home</Link></li>
-              <li className="current"><Link to="/About">About</Link></li>
+              <li><Link to="/About">About</Link></li>
               <li><Link to="/Products">Products</Link></li>
             </ul>
           </nav>
