@@ -15,6 +15,7 @@ const Products = () => {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/About">About</Link></li>
               <li><Link to="/Products">Products</Link></li>
+              <li><a href="/login">Login</a></li>
             </ul>
           </nav>
         </div>
